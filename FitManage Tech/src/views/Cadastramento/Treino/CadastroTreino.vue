@@ -5,7 +5,7 @@
 
         <div class="d-flex my-3">
             <h2 class="mt-2 mr-2">Cadastro de Treino</h2>
-            <v-icon color="info" size="42" icon="mdi-dumbbell"></v-icon>
+            <v-icon color="orange-darken-2" size="42" icon="mdi-dumbbell"></v-icon>
         </div>
 
         <div class="form-element">
@@ -279,7 +279,7 @@ input {
 }
 
 .buttonCreateWorkouts {
-    background-color: #4bb4f8;
+    background-color: #db1672;
     color: white;
 
     font-size: 16px;
@@ -292,7 +292,7 @@ input {
 }
 
 .buttonCreateWorkouts:hover {
-    background-color: #2985c2;
+    background-color: #b6125e;
 }
 
 .buttonReturn {

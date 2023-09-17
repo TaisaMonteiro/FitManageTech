@@ -173,7 +173,7 @@ input {
     font-size: small;
 }
 .buttonLogin {
-    background-color: #4bb4f8;
+    background-color: #db1672;
     color: white;
 
     font-size: 16px;
@@ -185,7 +185,7 @@ input {
     border: none;
 }
 .buttonLogin:hover {
-    background-color: #2985c2;
+    background-color: #b6125e;
 }
 
 a,

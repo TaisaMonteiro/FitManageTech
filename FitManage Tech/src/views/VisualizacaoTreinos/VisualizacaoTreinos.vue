@@ -3,7 +3,7 @@
   <v-app>
 
     <div class="containerTitle my-4 mx-8">
-      <v-icon color="info" size="42" icon="mdi-weight-lifter"></v-icon>
+      <v-icon color="orange-darken-2" size="42" icon="mdi-weight-lifter"></v-icon>
       <h2>Treinos do Aluno - {{ student_name }}</h2>
     </div>
 
@@ -24,13 +24,13 @@
 
     <div class="d-flex justify-center mb-4">
       <div class="mt-11 mx-2">
-        <v-btn class="mx-1" variant="outlined" @click="selectDay(1)" :color="isSelected(1) ? 'info' : ''">Segunda</v-btn>
-        <v-btn class="mx-1" variant="outlined" @click="selectDay(2)" :color="isSelected(2) ? 'info' : ''">Terça</v-btn>
-        <v-btn class="mx-1" variant="outlined" @click="selectDay(3)" :color="isSelected(3) ? 'info' : ''">Quarta</v-btn>
-        <v-btn class="mx-1" variant="outlined" @click="selectDay(4)" :color="isSelected(4) ? 'info' : ''">Quinta</v-btn>
-        <v-btn class="mx-1" variant="outlined" @click="selectDay(5)" :color="isSelected(5) ? 'info' : ''">Sexta</v-btn>
-        <v-btn class="mx-1" variant="outlined" @click="selectDay(6)" :color="isSelected(6) ? 'info' : ''">Sábado</v-btn>
-        <v-btn class="mx-1" variant="outlined" @click="selectDay(7)" :color="isSelected(7) ? 'info' : ''">Domingo</v-btn>
+        <v-btn class="mx-1" variant="outlined" @click="selectDay(1)" :color="isSelected(1) ? 'pink-darken-1' : ''">Segunda</v-btn>
+        <v-btn class="mx-1" variant="outlined" @click="selectDay(2)" :color="isSelected(2) ? 'pink-darken-1' : ''">Terça</v-btn>
+        <v-btn class="mx-1" variant="outlined" @click="selectDay(3)" :color="isSelected(3) ? 'pink-darken-1' : ''">Quarta</v-btn>
+        <v-btn class="mx-1" variant="outlined" @click="selectDay(4)" :color="isSelected(4) ? 'pink-darken-1' : ''">Quinta</v-btn>
+        <v-btn class="mx-1" variant="outlined" @click="selectDay(5)" :color="isSelected(5) ? 'pink-darken-1' : ''">Sexta</v-btn>
+        <v-btn class="mx-1" variant="outlined" @click="selectDay(6)" :color="isSelected(6) ? 'pink-darken-1' : ''">Sábado</v-btn>
+        <v-btn class="mx-1" variant="outlined" @click="selectDay(7)" :color="isSelected(7) ? 'pink-darken-1' : ''">Domingo</v-btn>
 
         <v-table class="mt-2 mx-2">
           <template v-slot:default>

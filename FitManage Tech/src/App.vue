@@ -1,6 +1,6 @@
 <template>
     <v-layout>
-        <v-app-bar color="blue" v-if="viewAppNavigation">
+        <v-app-bar color="pink" v-if="viewAppNavigation">
             <v-app-bar-title>
                 <b>Lab Treinos</b>
             </v-app-bar-title>

@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <div class="d-flex align-center mt-7 mx-13 pa-3 "> 
-        <v-icon color="info" size="70" class="mt-3 mr-2" icon="mdi-kettlebell"></v-icon>
+        <v-icon color="orange-darken-2" size="70" class="mt-3 mr-2" icon="mdi-kettlebell"></v-icon>
         <h2 class="mt-5">Exercícios</h2>
     </div>
 
@@ -16,7 +16,7 @@
                 required>
             </v-text-field>
             
-            <v-btn class="ml-2 mb-5" variant="flat" color="success" type="submit">Cadastrar</v-btn>
+            <v-btn class="ml-2 mb-5" variant="flat" color="pink-darken-1" type="submit">Cadastrar</v-btn>
         </div>
 
         <span class="message-error mx-16 mt-n4 mb-5">{{ errorInputExercises }}</span>

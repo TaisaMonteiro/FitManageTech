@@ -1,12 +1,12 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="d-flex align-center mt-7 mx-13 pa-3 ">
-    <v-icon color="info" size="70" class="mt-3 mr-2" icon="mdi-account-supervisor"></v-icon>
+    <v-icon color="orange-darken-2" size="70" class="mt-3 mr-2" icon="mdi-account-supervisor"></v-icon>
     <h2 class="mt-5">Alunos</h2>
     <v-btn 
         class="ml-auto mt-5" 
         variant="flat" 
-        color="orange" 
+        color="pink-darken-1" 
         type="submit"
         :to="{ name: 'CadastroNovoAluno' }">
         Novo
@@ -47,14 +47,14 @@
             <td class="text-left" style="width: 30vw;">
               <v-btn 
                 variant="tonal" 
-                color="teal"
+                color="pink-darken-1"
                 @click="() => createExercise(responseStudent.id, responseStudent.name)">
                 Montar Treino
               </v-btn>
 
               <v-btn 
                 variant="tonal" 
-                color="teal" 
+                color="pink-darken-1" 
                 class="ml-7"
                 @click="() => showExercise(responseStudent.id, responseStudent.name)">
                 Ver
