@@ -13,12 +13,12 @@
                                     <h3> {{ responseDashboard.amount_students }} Aluno(s) </h3>
                                 </v-card-text>
                                 <v-card-actions>
-                                    <v-btn variant="flat" color="success"
+                                    <v-btn variant="flat" color="pink-darken-1"
                                         :to="{ name: 'GerenciamentoAlunos' }">Adicionar
                                     </v-btn>
                                 </v-card-actions>
                             </div>
-                                <v-icon color="info" size="70" class="mt-3 mr-2" icon="mdi-account-supervisor"></v-icon>
+                                <v-icon color="orange-darken-2" size="70" class="mt-3 mr-2" icon="mdi-account-supervisor"></v-icon>
                         </div>
                     </v-card>
                 </v-col>
@@ -31,12 +31,12 @@
                                     <h3> {{ responseDashboard.amount_exercises }} Exercício(s) </h3>
                                 </v-card-text>
                                 <v-card-actions>
-                                    <v-btn variant="flat" color="success"
+                                    <v-btn variant="flat" color="pink-darken-1"
                                         :to="{ name: 'GerenciamentoExercicio' }">Adicionar
                                     </v-btn>
                                 </v-card-actions>
                             </div>
-                                <v-icon color="info" size="70" class="mt-3 mr-2" icon="mdi-arm-flex"></v-icon>
+                                <v-icon color="orange-darken-2" size="70" class="mt-3 mr-2" icon="mdi-arm-flex"></v-icon>
                         </div>
                     </v-card>
                 </v-col>
